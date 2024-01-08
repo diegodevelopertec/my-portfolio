@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Poppins&family=Roboto+Slab:wght@600&display=swap');
+
+*{
+  touch-action: none;
+  user-select: none;
+  box-sizing: border-box;
+  padding: 0%;
+  list-style: none;
+  scroll-behavior: smooth;
+  margin: 0;
+  text-decoration: none;
+ font-family: 'Poppins';
+ font-weight: 600;
+ 
+}

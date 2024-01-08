@@ -1,0 +1,46 @@
+
+export const projetos=[
+    {
+        id:1,
+        name:'devFood',
+        description:'dddddddddddddddddddddddddddddd',
+        link:'https://dev-food.vercel.app/',
+        img:'/imgs/food-projeto.jpg'
+    },
+    {
+        id:1,
+        name:'devFood',
+        description:'dddddddddddddddddddddddddddddd',
+        link:'dddddddddddddddddddddddddddd',
+        img:'/imgs/food-projeto.jpg'
+    },
+    {
+        id:1,
+        name:'devFood',
+        description:'dddddddddddddddddddddddddddddd',
+        link:'dddddddddddddddddddddddddddd',
+        img:'/imgs/food-projeto.jpg'
+    },
+    {
+        id:1,
+        name:'devFood',
+        description:'dddddddddddddddddddddddddddddd',
+        link:'dddddddddddddddddddddddddddd',
+        img:'/imgs/food-projeto.jpg'
+    },
+    {
+        id:1,
+        name:'devFood',
+        description:'dddddddddddddddddddddddddddddd',
+        link:'dddddddddddddddddddddddddddd',
+        img:'/imgs/food-projeto.jpg'
+    },
+    ,
+    {
+        id:1,
+        name:'devFood',
+        description:'dddddddddddddddddddddddddddddd',
+        link:'dddddddddddddddddddddddddddd',
+        img:'/imgs/food-projeto.jpg'
+    }
+]
