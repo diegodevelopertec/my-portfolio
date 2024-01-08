@@ -37,6 +37,7 @@ export default ()=>{
      <a href="#sobre" onClick={()=>handleStateMobile(false)} >Sobre Mim</a>
       <a href="#servicos" onClick={()=>handleStateMobile(false)} >Hablidades</a>
       <a href="#projetos" onClick={()=>handleStateMobile(false)} >Meus Projetos</a>
+      <a href="#certificados" onClick={()=>handleStateMobile(false)} >Certificados</a>
     </div>
    
     </nav>

@@ -1,4 +1,4 @@
-import { ContainerProjetos,ContainerServicos, ContainerSobre, ContainerTechs, Page } from "./style"
+import { ContainerCertificados, ContainerProjetos,ContainerServicos, ContainerSobre, ContainerTechs, Page } from "./style"
 import Arrow from ".././../assets/icons/arrow"
 import Question from ".././../assets/icons/question"
 import { useEffect } from "react"
@@ -16,6 +16,7 @@ import Node from "../../assets/icons/node"
 import React from "../../assets/icons/react"
 import Python from "../../assets/icons/python"
 import Typescript from "../../assets/icons/typescript"
+import { certificados } from "../../data/certificados"
 
 
 export default ()=>{
@@ -85,6 +86,21 @@ export default ()=>{
             </div>
         </div>
     </ContainerProjetos>
+    <ContainerCertificados id="certificados">
+              <div className="content">
+                <h3>Certificados</h3>
+                <div className="certificados-box">
+                {
+                    certificados.map((i,k)=>(
+                        <img src={i.img} alt="" />
+                    ))
+                }
+                    
+                
+                </div>
+              </div>
+
+    </ContainerCertificados>
     <ButtonZap />
     <ButtonFloat />
     </Page>

@@ -261,3 +261,38 @@ padding: 100px;
 
 }
 `
+
+export const ContainerCertificados=styled.section`
+display: flex;
+flex-direction: column;
+justify-content: center;
+h3{
+    text-align: center;
+    margin: 40px 0;
+    color: ${globalStyle.bgAppSecondary};
+}
+.certificados-box{
+    display: grid;
+    justify-items: center;
+    padding: 90px 20px;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+    img{
+        margin: 12px;
+        height: 250px;
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .certificados-box{
+        padding: 90px 12px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img{
+            margin: 12px 0;
+        }
+    }
+}
+`
